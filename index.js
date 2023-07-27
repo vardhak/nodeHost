@@ -9,6 +9,10 @@ app.get("/", (req, res) => {
     res.end("hello world 🫡 siddarth jara gu khaa 🤣");
 })
 
+app.get("/vardhak", (req, res) => {
+    res.end("hello master VARDHAK 🔥");
+})
+
 app.listen(port, hostname, () => {
     console.log("listening.....");
 })
