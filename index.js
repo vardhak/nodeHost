@@ -6,7 +6,7 @@ const port = 3000;
 const app = express();
 
 app.get("/", (req, res) => {
-    res.end("<h1>hello world 🫡 siddarth jara gu khaa 🤣 </h1>");
+    res.end("hello world 🫡 siddarth jara gu khaa 🤣");
 })
 
 app.listen(port, hostname, () => {
